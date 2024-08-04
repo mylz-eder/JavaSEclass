@@ -1,4 +1,4 @@
-package carssession6;
+package session_6_car;
 
 import java.util.Scanner;
 
@@ -12,10 +12,10 @@ public class Main {
         try {
             do {
                     System.out.println("0) Close the Application");
-                    System.out.println("1) Submit a carssession6.Sport carssession6.Car Specification: ");
-                    System.out.println("2) Submit an SUV carssession6.Car Specification: ");
-                    System.out.println("3) Submit an Off-road carssession6.Car Specification: ");
-                    System.out.println("4) Submit your carssession6.Mini carssession6.Car Specification: ");
+                    System.out.println("1) Submit a Sport Car Specification: ");
+                    System.out.println("2) Submit an SUV Specification: ");
+                    System.out.println("3) Submit an Off-road Specification: ");
+                    System.out.println("4) Submit your Mini Specification: ");
                     System.out.println("Choose your desired course of operation:    \n ");
                     choice = Integer.parseInt(input.nextLine());
 
@@ -24,19 +24,19 @@ public class Main {
                             System.out.println("Program terminated successfully");
                             break;
                         case 1:
-                            System.out.println("Submit a carssession6.Sport carssession6.Car Specification: ");
-                            Sport newSportcar = new Sport();
-                            System.out.println("What is the name of the carssession6.Car?");
+                            System.out.println("Submit a Sport Car Specification: ");
+                            Sport newSportsCar = new Sport();
+                            System.out.println("What is the name of the Car?");
 
                             break;
                         case 2:
-                            System.out.println("Submit an SUV carssession6.Car Specification: ");
+                            System.out.println("Submit an SUV Car Specification: ");
                             break;
                         case 3:
-                            System.out.println("Submit an Off-road carssession6.Car Specification: ");
+                            System.out.println("Submit an Off-road Specification: ");
                             break;
                         case 4:
-                            System.out.println("Submit your carssession6.Mini carssession6.Car Specification: ");
+                            System.out.println("Submit your Mini Specification: ");
                             break;
                         default:
                             System.out.println("Invalid choice. please Submit a valid option.");

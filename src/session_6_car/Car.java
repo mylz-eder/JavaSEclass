@@ -1,4 +1,4 @@
-package carssession6;
+package session_6_car;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

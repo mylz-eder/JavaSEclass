@@ -1,4 +1,4 @@
-package perfectnumbersession2;
+package session_2_perfect_num;
 
 import java.util.Scanner;
 
